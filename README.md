@@ -12,14 +12,18 @@ And then include the service provider within `app/config/app.php`.
 
 ```php
 'providers' => [
-    Ghanem\Reportable\ServiceProvider::class
+    Ghanem\Reportable\ReportableServiceProvider::class
 ];
 ```
 
 At last you need to publish and run the migration.
 
+```bash
+php artisan vendor:publish
 ```
-php artisan vendor:publish --provider="Ghanem\Reportable\ServiceProvider" && php artisan migrate
+and
+```bash
+php artisan migrate
 ```
 
 ## Setup a Model
