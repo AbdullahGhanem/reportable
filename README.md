@@ -1,4 +1,8 @@
+[![Latest Version](https://img.shields.io/github/release/abdullahghanem/reportable.svg?style=flat-square)](https://github.com/abdullahghanem/reportable/releases)
+[![Total Downloads](https://img.shields.io/packagist/dt/ghanem/reportable.svg?style=flat-square)](https://packagist.org/packages/ghanem/reportable)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 # Laravel Reportable
+This package will allow you to add a full report system into your Laravel application.
 
 ## Installation
 
@@ -47,10 +51,27 @@ class Post extends Model implements Reportable
 
 #### The User Model reports the Post Model
 ```php
-$post->report([
-    'reason' => str_random(10),
-    'meta' => ['some more optional data, can be notes or something'],
-], $user);
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Http\Controllers\Controller;
+
+use App\Post;
+use Auth;
+
+class PostController extends Controller
+{
+    public function makeReport()
+    {
+        $post = Post::find(1);
+        $user = Auth::user();
+        
+        $post->report([
+            'reason' => str_random(10),
+            'meta' => ['some more optional data, can be notes or something'],
+        ], $user);
+    }
 ```
 
 #### Create a conclusion for a Report and add the User Model as "judge" (useful to later see who or what came to this conclusion)

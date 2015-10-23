@@ -1,7 +1,7 @@
 {
     "name": "ghanem/reportable",
     "description": "Reportable Polymorphic Eloquent Models for Laravel 5",    
-    "keywords": ["ajax", "blade", "laravel"],
+    "keywords": ["report", "laravel"],
     "license": "MIT",
     "authors": [
         {
