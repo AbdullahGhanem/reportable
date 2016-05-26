@@ -23,6 +23,14 @@ class Report extends Model
     }
 
     /**
+     * @return \Illuminate\Database\Eloquent\Relations\MorphTo
+     */
+    public function reporter()
+    {
+        return $this->morphTo();
+    }
+
+    /**
      * @return \Illuminate\Database\Eloquent\Relations\HasOne
      */
     public function conclusion()
