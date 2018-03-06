@@ -1,5 +1,5 @@
 {
-    "name": "ghanem/reportable",
+    "name": "misfits/reportable",
     "description": "Reportable Polymorphic Eloquent Models for Laravel 5",    
     "keywords": ["report", "laravel"],
     "license": "MIT",
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ghanem\\Reportable\\": "src/"
+            "Misfits\\Reportable\\": "src/"
         }
     }
 }

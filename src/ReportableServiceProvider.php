@@ -1,4 +1,4 @@
-<?php namespace Ghanem\Reportable;
+<?php namespace Misfits\Reportable;
 
 use Illuminate\Support\ServiceProvider;
 
