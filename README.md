@@ -12,7 +12,7 @@ First, pull in the package through Composer.
 composer require ghanem/reportable
 ```
 
-And then include the service provider within `app/config/app.php`.
+In Laravel 5.5 and higher the service provider will automatically get registered. In older versions of the framework just add the service provider in config/app.php file:
 
 ```php
 'providers' => [
