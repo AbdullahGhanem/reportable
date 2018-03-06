@@ -1,7 +1,7 @@
 {
     "name": "misfits/reportable",
     "description": "Reportable Polymorphic Eloquent Models for Laravel 5",    
-    "keywords": ["report", "laravel"],
+    "keywords": ["report", "laravel", "laravel 5.4", "laravel 5.5", "laravel 5.6"],
     "license": "MIT",
     "authors": [
         {
@@ -12,7 +12,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.2.0",
-        "illuminate/support": "~5.0"
+        "illuminate/support": "5.4.*|5.5.*|5.6.*"
     },
     "autoload": {
         "psr-4": {
