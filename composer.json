@@ -17,5 +17,7 @@
         "psr-4": {
             "Misfits\\Reportable\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
 }
