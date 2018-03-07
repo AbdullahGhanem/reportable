@@ -1,4 +1,4 @@
-<?php namespace Ghanem\Reportable\Contracts;
+<?php namespace Misfits\Reportable\Contracts;
 
 use Illuminate\Database\Eloquent\Model;
 

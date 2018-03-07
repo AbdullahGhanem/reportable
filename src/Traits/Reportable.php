@@ -1,6 +1,6 @@
-<?php namespace Ghanem\Reportable\Traits;
+<?php namespace Misfits\Reportable\Traits;
 
-use Ghanem\Reportable\Models\Report;
+use Misfits\Reportable\Models\Report;
 use Illuminate\Database\Eloquent\Model;
 
 trait Reportable

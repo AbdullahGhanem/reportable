@@ -1,4 +1,4 @@
-<?php namespace Ghanem\Reportable\Models;
+<?php namespace Misfits\Reportable\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
