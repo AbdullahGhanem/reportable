@@ -1,18 +1,18 @@
 {
-    "name": "ghanem/reportable",
-    "description": "Reportable Polymorphic Eloquent Models for Laravel 5",    
+    "name": "coliving/reportable",
+    "description": "Reportable Polymorphic Eloquent Models for Laravel 6",
     "keywords": ["report", "laravel"],
     "license": "MIT",
     "authors": [
         {
-            "name": "abdullah-ghanem",
-            "email": "3bdullah.ghanem@gmail.com"
+            "name": "Dzung Nguyen",
+            "email": "dungnh@gmail.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.5.9",
-        "illuminate/support": "~5.0"
+        "illuminate/support": "~5.0 | ~6.0 | ^6.1"
     },
     "autoload": {
         "psr-4": {
