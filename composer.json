@@ -1,6 +1,6 @@
 {
     "name": "coliving/reportable",
-    "description": "Reportable Polymorphic Eloquent Models for Laravel 6",
+    "description": "Reportable Polymorphic Eloquent Models for Laravel 6 & 7",
     "keywords": ["report", "laravel"],
     "license": "MIT",
     "authors": [
@@ -11,8 +11,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.5.9",
-        "illuminate/support": "~5.0 | ~6.0 | ~6.1 | ~6.2 | ~6.3"
+        "php": ">=7.2.0",
+        "illuminate/support": "^6.0 | ^7.0"
     },
     "autoload": {
         "psr-4": {
