@@ -23,7 +23,7 @@ And then include the service provider within `app/config/app.php`.
 At last you need to publish and run the migration.
 
 ```bash
-php artisan vendor:publish
+php artisan vendor:publish --provider="Ghanem\Reportable\ReportableServiceProvider"
 ```
 and
 ```bash
